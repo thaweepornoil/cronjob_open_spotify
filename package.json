@@ -1,0 +1,26 @@
+{
+  "name": "cronjob_open_spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build:exe": "pkg . --targets win"
+  },
+  "pkg": {
+    "scripts": "app.js",
+    "targets": "win"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
